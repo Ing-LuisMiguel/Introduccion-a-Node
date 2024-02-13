@@ -36,7 +36,6 @@ Loops:
 Estructuras como for y while para ejecutar código repetidamente.
   
 Scopes:
-
 Áreas del código donde las variables son accesibles.
   
 Arrays:
