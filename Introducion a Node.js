@@ -7,7 +7,7 @@ Node.js es un entorno de ejecución de JavaScript del lado del servidor que perm
 
 ### Lexical Structure:
 La estructura léxica se refiere a la sintaxis y la estructura básica del código JavaScript. Comprenderla es fundamental para escribir código JavaScript válido.
-```javascript
+``javascript
 let a = 10;
 const b = 5;
 
@@ -113,7 +113,7 @@ El modo estricto es una característica que permite optar por una versión más 
 Mis disculpas por la confusión. Aquí tienes todo el contenido en un solo bloque para copiar y pegar:
 
 markdown
-Copy code
+
 # Introducción a Node.js
 
 ## ¿Qué es Node.js?
@@ -123,20 +123,16 @@ Node.js es un entorno de ejecución de JavaScript del lado del servidor que perm
 
 ### Lexical Structure:
 La estructura léxica se refiere a la sintaxis y la estructura básica del código JavaScript. Comprenderla es fundamental para escribir código JavaScript válido.
-```javascript
+``javascript
 let a = 10;
 const b = 5;
 Expressions:
 Las expresiones son unidades de código que producen un valor. Pueden ser simples o complejas.
 
-javascript
-Copy code
+
 let resultado = (a * b) + 2;
 Data Types:
 JavaScript tiene varios tipos de datos, como números, cadenas, booleanos, objetos y funciones.
-
-javascript
-Copy code
 let numero = 42;
 let texto = "Hola";
 let esVerdadero = true;
@@ -144,8 +140,7 @@ let persona = { nombre: "Ana", edad: 25 };
 Classes:
 La sintaxis de clases en ES6 permite una programación orientada a objetos más clara.
 
-javascript
-Copy code
+
 class Animal {
   constructor(nombre) {
     this.nombre = nombre;
@@ -159,15 +154,15 @@ perro.hacerSonido();
 Variables:
 Las variables se utilizan para almacenar valores en JavaScript.
 
-javascript
-Copy code
+
+
 var x = 15;
 let y = 30;
 Functions:
 Las funciones son bloques de código reutilizables que realizan una tarea específica.
 
-javascript
-Copy code
+
+
 function multiplicar(a, b) {
     return a * b;
 }
@@ -175,8 +170,8 @@ const dividir = (a, b) => a / b;
 this operator:
 El operador this se refiere al objeto en el contexto actual de ejecución.
 
-javascript
-Copy code
+
+
 const objeto = {
   propiedad: "valor",
   mostrarPropiedad() {
@@ -187,15 +182,13 @@ objeto.mostrarPropiedad();
 Arrow Functions:
 Funciones de flecha proporcionan una sintaxis más corta y un comportamiento diferente con respecto a this.
 
-javascript
-Copy code
+
 const cuadrado = (num) => num * num;
 console.log(cuadrado(4));
 Loops:
 Los bucles se utilizan para repetir una serie de instrucciones.
 
-javascript
-Copy code
+
 for (let i = 0; i < 3; i++) {
     console.log(i);
 }
@@ -208,8 +201,7 @@ while (j < 3) {
 Scopes:
 El alcance de una variable se refiere a la parte del código donde esa variable es accesible.
 
-javascript
-Copy code
+
 function ejemploScopes() {
     var interno = "variable interna";
     console.log(interno);
@@ -218,23 +210,22 @@ ejemploScopes();
 Arrays:
 Los arrays son estructuras de datos que permiten almacenar múltiples valores en una sola variable.
 
-javascript
-Copy code
+
+
 const frutas = ["manzana", "banana", "uva"];
 console.log(frutas.length);
 console.log(frutas[0]);
 Template Literals:
 Las template literals permiten la interpolación de variables dentro de cadenas de texto de manera más legible.
 
-javascript
-Copy code
+
+
 const nombre = "Carlos";
 console.log(`Hola, mi nombre es ${nombre}`);
 Strict Mode:
 El modo estricto es una característica que permite optar por una versión más restringida y segura del lenguaje.
 
-javascript
-Copy code
+
 "use strict";
 
 
